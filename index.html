@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Works</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Yazhini, <br>
+                        a passionate tech enthusiast <br>
+                        and developer crafting intelligent solutions.
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <!--- <ul class="s-intro__social social-list">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M20.447 20.452h-3.554v-5.438c0-1.297-.025-2.965-1.805-2.965-1.807 0-2.084 1.41-2.084 2.866v5.537h-3.554v-11.168h3.415v1.525h.05c.477-.898 1.639-1.846 3.373-1.846 3.609 0 4.276 2.374 4.276 5.465v6.024zM5.337 7.433c-1.144 0-2.067-.925-2.067-2.067s.924-2.067 2.067-2.067c1.143 0 2.067.924 2.067 2.067s-.924 2.067-2.067 2.067zm1.777 13.019h-3.554v-11.168h3.554v11.168zm15.886-20.452h-23.776c-.598 0-1.08.482-1.08 1.08v21.841c0 .598.482 1.08 1.08 1.08h23.776c.598 0 1.08-.482 1.08-1.08v-21.841c0-.598-.482-1.08-1.08-1.08z"></path></svg>
+                            <span class="u-screen-reader-text">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577v-2.23c-3.338.726-4.043-1.415-4.043-1.415-.546-1.387-1.333-1.756-1.333-1.756-1.089-.743.083-.728.083-.728 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.806 1.305 3.49.998.108-.775.418-1.305.762-1.605-2.665-.302-5.467-1.334-5.467-5.93 0-1.31.469-2.38 1.237-3.22-.125-.302-.535-1.523.116-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 013.003-.403c1.02.005 2.047.137 3.003.403 2.29-1.552 3.296-1.23 3.296-1.23.653 1.653.243 2.874.118 3.176.77.84 1.235 1.91 1.235 3.22 0 4.607-2.807 5.625-5.479 5.922.43.372.823 1.102.823 2.22v3.293c0 .319.192.69.798.573C20.566 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"></path></svg>
+                            <span class="u-screen-reader-text">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://leetcode.com/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" width="24" height="24">
+                            <span class="u-screen-reader-text">LeetCode</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://orcid.org/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID" width="24" height="24">
+                            <span class="u-screen-reader-text">ORCID</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerrank.com/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="HackerRank" width="24" height="24">
+                            <span class="u-screen-reader-text">HackerRank</span>
+                        </a>
+                    </li>                
+            </ul> <!-- end s-intro__social -->*/
+
+            <div class="s-intro__content-media">                               
+                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <!---<div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="#0">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        Hey there! I'm Yazhini—a tech enthusiast, problem solver, and lifelong learner. I thrive on exploring new technologies, pushing creative boundaries, and turning ideas into reality. Whether it’s web development, UI/UX design, or machine learning, I love diving deep into how things work and figuring out how to make them better.
+
+                        Curiosity is my driving force. I believe in learning by doing—because real growth comes from experimenting, building, and breaking things to understand them better. I’m always on the lookout for the next challenge, the next skill to master, and the next opportunity to evolve.
+                        
+                        Technology excites me, but what excites me even more is its potential to create meaningful change.
+                    </p>
+                
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Plant Disease Classification  
+                                    <span>Plant Disease Classification is a project that leverages machine learning techniques to detect and classify plant diseases from images.  </span>
+                                </li>
+                                <li>
+                                    UI/UX for Freelance Hub  
+                                    <span>A Freelance Hub Website is a digital platform connecting freelancers with clients for various projects. It features an intuitive UI, seamless navigation to ensure a smooth experience.</span>
+                                </li>
+                                <li>
+                                    Fake News Detection Model  
+                                    <span>This project aims to develop a robust framework for detecting fake news utilizing advanced data science and analytics techniques. </span>
+                                </li>
+                                <li>
+                                    Pneumonia Detection Model  
+                                    <span>Developed a CNN model using TensorFlow and Keras for pneumonia detection, achieving 91.94% accuracy. </span>
+                                </li>
+                                <li>
+                                    Resume Builder  
+                                    <span>A user-friendly web application that empowers individuals to create professional resumes in just minutes with customizable templates.</span>
+                                </li>
+                                <li>
+                                    IoT Device for Women’s Security  
+                                    <span>This IoT-based women’s security device ensures quick and reliable emergency alerts using ESP8266 NodeMCU to control the system and a Neo-6M GPS module to fetch real-time location data. A tactile push button triggers the device, sending the location to predefined contacts for immediate assistance. Compact and portable, the device enhances personal safety by providing a discreet SOS mechanism sending messages to emergency contacts. It is an affordable and efficient solution for women’s safety.</span>
+                                </li>
+                            </ul>
+                        </div>
+                         <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Achievements</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Paper Presentation: "The Future World: Virtual Reality and Augmented Reality"  
+                                        <span>International Conference on Networks, Image and Security (ICNIS) — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Paper Presentation: "Leveraging Optimized BiLSTM and XGBoost for Early Detection of Alzheimer’s Disease"  
+                                        <span>International Conference on Smart Data Intelligence (ICSMDI) — 2023</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Published Chapter: "Utilizing AI and Machine Learning for Natural Disaster Management"  
+                                        <span>IGI Global — Year of Publication</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+    <li><span>Front-End Development</span></li>
+    <li><span>UI/UX Design</span></li>
+    <li><span>Machine Learning</span></li>
+    <li><span>Data Science and Analytics</span></li>
+</ul>
+
+<h4 class="s-about__block-title">Technical Skills</h4>
+<ul class="s-about__list">
+    <li><span>Programming Languages: Python, Java</span></li>
+    <li><span>Web Development: HTML, CSS, JavaScript</span></li>
+    <li><span>Design Tools: Figma, Canva</span></li>
+    <li><span>AI Chatbots: Hugging Face</span></li>
+    <li><span>IDE: Visual Studio Code, Google Colab, Jupyter Notebook, Eclipse</span></li>
+    <li><span>Libraries: Pandas, NumPy, TensorFlow</span></li>
+    <li><span>Version Control: Git/GitHub</span></li>
+</ul>
+
+<h4 class="s-about__block-title">Soft Skills</h4>
+<ul class="s-about__list">
+    <li><span>Adaptability</span></li>
+    <li><span>Responsibility</span></li>
+    <li><span>Hardworking</span></li>
+    <li><span>Time Management</span></li>
+</ul>
+
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+        <!-- # works
+        ================================================== -->
+        
+
+        <!-- # numbers
+        ================================================== -->
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                        Thank you for visiting my portfolio. I am always eager to connect with professionals, recruiters, and industry leaders who share my passion for technology, innovation, and problem-solving. Whether you're looking to discuss career opportunities, potential collaborations, or simply exchange insights, I would love to hear from you.
+
+                        With a strong background in UI/UX design, front-end development, and machine learning, I am constantly striving to expand my expertise and contribute to impactful projects. I am open to both full-time and freelance opportunities where I can apply my skills, learn new technologies, and grow professionally.
+                        
+                        If you think my experience aligns with your team’s needs or if you’d like to discuss how we can work together, feel free to reach out via email or LinkedIn. I look forward to connecting!
+                        <li><a href="yazhini4225@gmail.com">Gmail</a></li>
+                        <li><a href="www.linkedin.com/in/yazhini4225">linkedin</a></li>
+                    </p>               
+                </div> <!-- end section-footer__about -->
+<!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+             <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
